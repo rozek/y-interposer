@@ -9,7 +9,7 @@ export default {
     {
       file:     './dist/y-interposer.js',
       format:   'umd', // builds for both Node.js and Browser
-      name:     'YjsInterposer', // required for UMD modules
+      name:     'Interposer', // required for UMD modules
       sourcemap:true,
       plugins: [terser({ format:{ comments:false, safari10:true } })],
     },{
